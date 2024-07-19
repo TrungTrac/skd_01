@@ -1,19 +1,20 @@
-a = [5,2,0]
-b = [3,3,1]
-ar = 0
-br = 0
-rs =[0,0]
-for(let i=0; i<3;i++){
-    if(a[i]>b[i]){
-        rs[0]= ar+1
-        ar = rs[0]
-    }else if(a[i]==b[i]){
-        rs[0]= ar+0
-        rs[1]= br+0
-    }else{
-        rs[1]= br+1
-        br = rs[0]
+function compareTriplets(a,b){
+    result = [0,0];
+    for(let i=0; i<3;i++){
+        // điều kiện a và b nằm trong khoản từ 1-100
+        if(a[i]>=100||a[i]<1||b[i]>=100||b[i]<1){
+             return
+        }
+        // so sánh điểm 
+        if(a[i]>b[i]){
+            result[0]++
+        }else if(a[i]<b[i]){
+            result[1]++
+        }
     }
+    return result
 }
-console.log(rs);
-
+a = [1,8,3]
+b = [5,16,48]
+//kết quả [0,3]
+compareTriplets(a,b)

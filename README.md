@@ -1,7 +1,7 @@
 ## Bước 1 dịch yêu cầu sang tiếng Anh
 Alice và Bob mỗi người tạo ra một bài toán cho Glams. Một người đánh giá đã chấm điểm cho hai thử thách này, cho điểm trên thang điểm từ 1 đến 100 cho ba tiêu chí: độ rõ ràng của vấn đề, tính nguyên bản và độ khó.
 
-Điểm của bài toán của Alice là bộ ba a = (a[0], a[1], a[2]), và điểm của bài toán của Bob là bộ ba b = (b[0], b[1], b[2]).
+Điểm của bài toán của Alice là mảng có 3 phần tử a = (a[0], a[1], a[2]), và điểm của bài toán của Bob là mảng có 3 phần tử b = (b[0], b[1], b[2]).
 
 Nhiệm vụ là tìm điểm so sánh của họ bằng cách so sánh a[0] với b[0], a[1] với b[1] và a[2] với b[2].
 
@@ -34,8 +34,8 @@ int[2]: Điểm của Alice nằm ở vị trí đầu tiên, và điểm của 
 
 Định dạng đầu vào
 
-Dòng đầu tiên chứa 3 số nguyên cách nhau bởi dấu cách, a[0], a[1], và a[2], các giá trị tương ứng trong bộ ba a.
-Dòng thứ hai chứa 3 số nguyên cách nhau bởi dấu cách, b[0], b[1], và b[2], các giá trị tương ứng trong bộ ba b.
+Dòng đầu tiên chứa 3 số nguyên cách nhau bởi dấu cách, a[0], a[1], và a[2], các giá trị tương ứng trong mảng có 3 phần tử a.
+Dòng thứ hai chứa 3 số nguyên cách nhau bởi dấu cách, b[0], b[1], và b[2], các giá trị tương ứng trong mảng có 3 phần tử b.
 
 Ràng buộc
 
