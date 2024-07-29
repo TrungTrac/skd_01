@@ -117,9 +117,43 @@ Ví dụ đầu vào 11
 Đầu ra mẫu 11
 0 2
 
-Ví dụ đầu vào 12
-9 6 3
-7 5 3
+## Bài tập 2
+Cho một mảng số nguyên, tính toán tỷ lệ các phần tử dương, âm và bằng 0. In giá trị thập phân của mỗi tỷ lệ trên một dòng mới với 6 chữ số thập phân.
 
-Đầu ra mẫu 12
-2 0
+Lưu ý: Câu trả lời cuối cùng phải có 6 chữ số sau dấu thập phân, ví dụ: 0.123456.
+
+Ví dụ:
+Arr = [1, 1, 0, -1, -1]
+Có n = 5 phần tử, hai phần tử dương, hai phần tử âm và một phần tử bằng 0. Tỷ lệ của chúng là 2/5 = 0.400000, 2/5 = 0.400000 và 1/5 = 0.200000. Kết quả được in ra như sau:
+
+0.400000
+0.400000
+0.200000
+Mô tả hàm:
+Hoàn thành hàm plusMinusZero. Hàm plusMinusZero có tham số sau:
+
+int arr[n]: một mảng số nguyên
+In:
+In tỷ lệ các giá trị dương, âm và bằng 0 trong mảng. Mỗi giá trị nên được in trên một dòng riêng biệt với 6 chữ số thập phân.
+
+Định dạng đầu vào:
+Dòng đầu tiên chứa một số nguyên, n, kích thước của mảng. Dòng thứ hai chứa n số nguyên cách nhau bởi khoảng trắng mô tả arr[n].
+
+Ràng buộc:
+0 < n ≤ 100
+-100 ≤ arr[i] ≤ 100
+Định dạng đầu ra:
+In ra 3 dòng, mỗi dòng có giá trị thập phân với 6 chữ số sau dấu thập phân:
+
+tỷ lệ các giá trị dương
+tỷ lệ các giá trị âm
+tỷ lệ các giá trị bằng 0
+Đầu vào mẫu:
+diff
+Copy code
+6
+-4 3 -9 0 4 1
+Đầu ra mẫu:
+0.500000
+0.333333
+0.166667
